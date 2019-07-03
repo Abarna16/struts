@@ -1,0 +1,16 @@
+
+<struts-config>
+<global-forwards>
+<forward name="signup" path="signup.do"/>
+</global-forwards>
+
+<form-beans>
+<form-bean name="signupform" type="com.form.SignupForm"/>
+</form-beans>
+ <action-mappings>
+        <action path="/register" type="com.action.SignupAction" name="signupform">
+        	<forward name="success" path="/success.jsp" />
+        </action>    
+    </action-mappings>
+
+</struts-config>
