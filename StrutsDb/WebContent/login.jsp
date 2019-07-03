@@ -7,10 +7,14 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+
+</style>
 <body>
+<h2>Login Form</h2>
 <html:html>
-<h2>Signup Form</h2>
-<html:form action="/register" method="get" >
+
+<html:form action="/login" method="get">
 Enter user name:<br>
 <html:text property="userName"/><br>
 Enter password:<br>

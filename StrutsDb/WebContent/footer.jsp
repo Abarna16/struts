@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>Successfuly Added!!!</center>
+<center>footer</center>
 </body>
 </html>

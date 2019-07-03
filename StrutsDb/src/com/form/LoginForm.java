@@ -1,6 +1,11 @@
 package com.form;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.struts.action.ActionForm;
-public class SignupForm extends ActionForm {
+import org.apache.struts.action.ActionMapping;
+
+public class LoginForm extends ActionForm {
 /**
 	 * 
 	 */
@@ -23,5 +28,9 @@ public String getPassword()
 {
 	return this.password;
 }
-
+public void reset(ActionMapping mapping,HttpServletRequest request)
+{
+	this.userName=null;
+	this.password=null;
+}
 }

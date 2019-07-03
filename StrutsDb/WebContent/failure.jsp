@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>Successfuly Added!!!</center>
+<b>Login failed...</b><br><br>
+<jsp:include page="login.jsp"/>
 </body>
 </html>

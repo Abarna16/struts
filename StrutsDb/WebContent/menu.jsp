@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>Successfuly Added!!!</center>
+<a href="Link.do?method=signup">Signup</a><br>
+<a href="Link.do?method=login">Login</a><br>
+<a href="Link.do?method=logout">Logout</a><br>
+<a href="Link.do?method=profile">Profile</a>
+
 </body>
 </html>
